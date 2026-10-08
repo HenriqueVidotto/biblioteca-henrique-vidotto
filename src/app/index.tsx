@@ -141,6 +141,20 @@ export default function Index() {
             </Text>
           </Pressable>
         </Link>
+         {/* Aulas */}
+        <Link href="/atividades" asChild>
+          <Pressable style={styles.card}>
+            <Text style={styles.icon}>▸</Text>
+
+            <Text style={styles.cardTitle}>
+              Atividades
+            </Text>
+
+            <Text style={styles.cardDescription}>
+              Atividades feitas em aulas
+            </Text>
+          </Pressable>
+        </Link>
          {/* Desenvolvedor */}
         <Link href="/desenvolvedor" asChild>
           <Pressable style={styles.card}>
@@ -155,20 +169,7 @@ export default function Index() {
             </Text>
           </Pressable>
         </Link>
-         {/* Cantinho de estudo */}
-        <Link href="/aulas" asChild>
-          <Pressable style={styles.card}>
-            <Text style={styles.icon}>▸</Text>
-
-            <Text style={styles.cardTitle}>
-              Cantinho deEstudos
-            </Text>
-
-            <Text style={styles.cardDescription}>
-              Aprenda com ferramentas de estudo
-            </Text>
-          </Pressable>
-        </Link>
+        
 
       </View>
 

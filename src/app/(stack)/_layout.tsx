@@ -1,4 +1,4 @@
- import { Stack } from "expo-router";
+import { Stack } from "expo-router";
 
 export default function StackLayout() {
   return (
@@ -8,6 +8,8 @@ export default function StackLayout() {
       <Stack.Screen name="recomendacao" />
       <Stack.Screen name="desenvolvedor" />
       <Stack.Screen name="pomodoro" />
+      <Stack.Screen name="atividades" />
+      <Stack.Screen name="atividades/atividade-1" />
     </Stack>
   );
 }
