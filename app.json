@@ -3,17 +3,16 @@
     "name": "biblioteca-henrique-vidotto",
     "slug": "biblioteca-henrique-vidotto",
     "version": "1.0.0",
-    "scheme":"biblioteca-henrique-vidotto",
+    "scheme": "biblioteca-henrique-vidotto",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "experiments":{
+    "experiments": {
       "typeRoutes": true
     },
     "ios": {
       "supportsTablet": true
     },
-
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -29,7 +28,8 @@
     },
     "plugins": [
       "expo-router",
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-sqlite"
     ]
   }
 }

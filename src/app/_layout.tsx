@@ -4,9 +4,9 @@ export default function RootLayout(){
     return (
         <Stack screenOptions={{headerShown:true}}>
             <Stack.Screen name="index"/>
-             <Stack.Screen name="(stack)"/>
-              <Stack.Screen name="(auth)"/>
-               <Stack.Screen name="(tabs)"/>
+            <Stack.Screen name="(stack)"/>
+            <Stack.Screen name="(auth)"/>
+            <Stack.Screen name="(tabs)" options={{headerShown: true}}/>
         </Stack>
     );
 }
